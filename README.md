@@ -1,22 +1,27 @@
-# 🏦 Sistema Bancário em Python
+# 💳 Sistema Bancário com Python e POO
 
-Este projeto é uma simulação de um sistema bancário simples, desenvolvido como parte do **desafio DIO** na formação Python.
+Este projeto foi desenvolvido como parte do bootcamp da DIO, no qual aplicamos os conceitos de **Programação Orientada a Objetos (POO)** para criar um sistema bancário simples, mas funcional.
 
-## Funcionalidades
+## 🧩 Descrição
 
-- Depósito de valores
-- Saque com limite diário e por transação
-- Emissão de extrato bancário
+O objetivo foi refatorar o sistema bancário inicial (feito com estrutura procedural) para um modelo orientado a objetos, utilizando classes como `Cliente`, `ContaCorrente` e `Banco`, substituindo dicionários por objetos.
 
-## Tecnologias utilizadas
+## 🛠️ Funcionalidades
 
-- Python 3.13
+- Criar novos clientes com nome, CPF, data de nascimento e endereço
+- Criar contas correntes para os clientes
+- Realizar depósitos e saques
+- Exibir extrato da conta
+- Menu interativo para navegação
 
-## Como executar
+## 📌 Tecnologias usadas
 
-Clone o repositório e execute o arquivo:
+- Python 3
+- Programação Orientada a Objetos (POO)
+
+## 🔁 Executar o projeto
+
+No terminal, execute:
 
 ```bash
-git clone https://github.com/FergFerrerira/sistema_bancario.git
-cd sistema_bancario
-python sistema_bancario.py
+python sistema_bancario_poo.py
